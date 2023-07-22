@@ -6,7 +6,7 @@ from huggingface_hub import (
     upload_file,
 )
 
-openai.api_key = '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'
+openai.api_key = ''
 messages = [{
     'role' : 'system',
     'content': ' Helpful Assistant'
